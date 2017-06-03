@@ -1,5 +1,12 @@
-// JavaScript
-// Chat Logic
+/**
+ * Chat logic
+ *
+ * Most of the js functionality is inspired from anatgarg.com
+ * jQuery tag Module from the tutorial
+ * http://anantgarg.com/2009/05/13/gmail-facebook-style-jquery-chat/
+ *
+ */
+
 
 var chatboxFocus = new Array();
 var chatBoxes = new Array();
@@ -218,6 +225,7 @@ var ready = function () {
 
                 newCookie = newCookie.slice(0, -1)
 
+
                 $.cookie('chatbox_minimized', newCookie);
                 $('#chatbox_' + conversation_id + ' .chatboxcontent').css('display', 'block');
                 $('#chatbox_' + conversation_id + ' .chatboxinput').css('display', 'block');
@@ -230,12 +238,15 @@ var ready = function () {
                     newCookie += '|' + $.cookie('chatbox_minimized');
                 }
 
+
                 $.cookie('chatbox_minimized', newCookie);
                 $('#chatbox_' + conversation_id + ' .chatboxcontent').css('display', 'none');
                 $('#chatbox_' + conversation_id + ' .chatboxinput').css('display', 'none');
             }
 
         }
+
+
 
     }
 
@@ -291,6 +302,8 @@ var ready = function () {
             return cookieValue;
         }
     };
+
+
 }
 
 $(document).ready(ready);

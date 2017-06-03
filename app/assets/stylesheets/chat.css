@@ -1,3 +1,9 @@
+/**
+ * GMAIL Like chat css
+ * CREDITS: http://css-tricks.com/replicating-google-hangouts-chat/
+ *
+ */
+
 .chatbox {
     position: fixed;
     position: expression("absolute");
