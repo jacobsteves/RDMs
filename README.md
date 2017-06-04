@@ -8,19 +8,26 @@ A ruby on rails app allowing users to send direct messages to each other faceboo
 Clone this repo.
 Run the following commands within terminal in this repo folder:
 
-`rvm --default use 2.3.3`
-
 `bundle install`
 
 `gem update system`
 
 `rails s`
 
-
+<br>
 
 In a new terminal tab:
 
 `rackup private_pub.ru -s thin -E production`
 
+<br>
+
+If you're running into problems, run:
+
+`rvm --default use 2.3.3`
+
+to set the default ruby version. 
+
+<br>
 
 Then just travel to localhost:3000 and you're all set up locally.
