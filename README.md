@@ -1,4 +1,4 @@
-# RDMs-RubyDirectMessages
+# RDMs
 A ruby on rails app allowing users to send direct messages to each other facebook messenger style. 
 
 ## Demo
@@ -19,6 +19,8 @@ Run the following commands within terminal in this repo folder:
 In a new terminal tab:
 
 `rackup private_pub.ru -s thin -E production`
+
+This will set up the [faye](https://faye.jcoglan.com/) server.
 
 <br>
 
