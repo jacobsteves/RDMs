@@ -2,7 +2,7 @@
 A ruby on rails app allowing users to send direct messages to each other facebook messenger style. 
 
 ## Demo
-[![https://gyazo.com/5d4b7182e633f595fcc71718392d71f1](https://i.gyazo.com/5d4b7182e633f595fcc71718392d71f1.gif)](https://gyazo.com/5d4b7182e633f595fcc71718392d71f1)
+[![https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9](https://i.gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9.gif)](https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9)
 
 ## Local Setup
 Clone this repo.
