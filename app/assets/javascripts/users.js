@@ -1,10 +1,12 @@
+// JavaScript
+
 var ready = function () {
 
-    /**
-     * When the send message link on our home page is clicked
-     * send an ajax request to our rails app with the sender_id and
-     * recipient_id
-     */
+    //
+    // When the send message link on our home page is clicked
+    // send an ajax request to our rails app with the sender_id and
+    // recipient_id
+    //
 
     $('.start-conversation').click(function (e) {
         e.preventDefault();
@@ -17,9 +19,9 @@ var ready = function () {
         });
     });
 
-    /**
-     * Used to minimize the chatbox
-     */
+    //
+    // Minimizes the chatbox
+    //
 
     $(document).on('click', '.toggleChatBox', function (e) {
         e.preventDefault();
@@ -28,9 +30,9 @@ var ready = function () {
         chatBox.toggleChatBoxGrowth(id);
     });
 
-    /**
-     * Used to close the chatbox
-     */
+    //
+    // Closes the chatbox
+    //
 
     $(document).on('click', '.closeChat', function (e) {
         e.preventDefault();
@@ -40,10 +42,10 @@ var ready = function () {
     });
 
 
-    /**
-     * Listen on keypress' in our chat textarea and call the
-     * chatInputKey in chat.js for inspection
-     */
+    //
+    // Listen on keypress' in our chat textarea and call the
+    // chatInputKey in chat.js to inspect
+    //
 
     $(document).on('keydown', '.chatboxtextarea', function (event) {
 
@@ -51,10 +53,10 @@ var ready = function () {
         chatBox.checkInputKey(event, $(this), id);
     });
 
-    /**
-     * When a conversation link is clicked show up the respective
-     * conversation chatbox
-     */
+    //
+    // When a conversation link is clicked then the respective
+    // conversation chatbox pops up
+    //
 
     $('a.conversation').click(function (e) {
         e.preventDefault();
@@ -66,5 +68,8 @@ var ready = function () {
 
 }
 
+//
+// Page listeners
+//
 $(document).ready(ready);
 $(document).on("page:load", ready);

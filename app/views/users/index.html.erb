@@ -4,13 +4,13 @@
     <div style="height: 300px; overflow-y: auto;">
       <div class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Registered Users</div>
+        <div class="panel-heading">Current Users</div>
 
         <!-- Table -->
         <table class="table">
           <thead>
           <tr>
-            <th>#</th>
+            <th>ID</th>
             <th>Name</th>
             <th></th>
           </tr>
@@ -21,8 +21,9 @@
                 <td><%= index +=1 %></td>
                 <td><%= user.name %></td>
                 <td>
-                  <%= link_to "Send Message", "#", class: "btn btn-success btn-xs start-conversation",
-                              "data-sid" => current_user.id, "data-rip" => user.id %>
+                  <%= link_to "Send Message", "#",
+                  class: "btn btn-success btn-xs start-conversation",
+                    "data-sid" => current_user.id, "data-rip" => user.id %>
                 </td>
               </tr>
           <% end %>

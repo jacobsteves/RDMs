@@ -12,10 +12,12 @@
 }
 
 .chatboxhead {
-    background: #666;
+    background: #0079a8;
     color: white;
     padding: 0.5rem;
     overflow: hidden;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 
     border-right: 1px solid rgba(85, 85, 85, 0.87);
     border-left: 1px solid rgba(85, 85, 85, 0.87);
@@ -82,6 +84,7 @@
 
 .self .chatboxmessagecontent {
     order: 1;
+    border-radius: 0.7em;
     border-bottom-right-radius: 0;
 }
 
@@ -103,9 +106,10 @@
 }
 
 .chatboxmessagecontent {
+    border-radius: 0.7em;
+    border-top-left-radius: 0;
     background: white;
     padding: 10px;
-    border-radius: 2px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
