@@ -14,3 +14,24 @@
  *= require bootstrap
  *= require_self
  */
+
+.navbar-element > li > a {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.navbar-title {
+  color: #ffffff;
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-title:hover {
+  color: #eaeaea;
+  text-decoration: none;
+}
