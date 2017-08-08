@@ -1,8 +1,12 @@
 # RDMs
-A ruby on rails app allowing users to send direct messages to each other facebook messenger style. 
+A ruby on rails app allowing users to send direct messages to each other facebook messenger style.
 
 ## Demo
+#### Messaging
 [![https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9](https://i.gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9.gif)](https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9)
+
+#### App
+[![https://gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e](https://i.gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e.gif)](https://gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e)
 
 ## Local Setup
 Clone this repo.
@@ -28,7 +32,7 @@ If you're running into problems, run:
 
 `rvm --default use 2.3.3`
 
-to set the default ruby version. 
+to set the default ruby version.
 
 <br>
 

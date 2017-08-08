@@ -1,7 +1,7 @@
 <div class="row">
-  <!-- Not implemented on tutorial -->
-  <div style="width: 400px; right: 0; position: fixed; padding: 2em; border: 1px solid black;">
-    <div style="height: 300px; overflow-y: auto;">
+  <div id="chatBox" class="chatbar-container">
+    <span class="chatbar-close" onclick="closeChat()">&times;</span>
+    <div class="chatbar-currentuser">
       <div class="panel panel-default">
         <!-- Default panel contents -->
         <div class="panel-heading">Current Users</div>
@@ -34,9 +34,9 @@
 
     </div>
     <hr>
-    <h3>Your Conversations</h3>
+    <h3 style="padding-left:1em;">Your Conversations</h3>
 
-    <div style="height: 400px; overflow-y: auto;">
+    <div class="chatbar-conversations">
       <% if @conversations.any? %>
           <ul class="media-list">
             <% @conversations.each do |conversation| %>
@@ -62,4 +62,15 @@
 
   </div>
 
+  <span class="chatbar-toggle" onclick="openChat()">CHAT</span>
+
+  <script>
+  function openChat() {
+      document.getElementById("chatBox").style.width = "400px";
+  }
+
+  function closeChat() {
+      document.getElementById("chatBox").style.width = "0";
+  }
+  </script>
 </div>
