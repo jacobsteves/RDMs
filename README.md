@@ -41,11 +41,9 @@ to set the default ruby version.
 Then just travel to localhost:3000 and you're all set up locally.
 
 ## Demo
-#### Messaging
-[![https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9](https://i.gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9.gif)](https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9)
-
-#### App
-[![https://gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e](https://i.gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e.gif)](https://gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e)
+Messaging                                                     |  Interface
+:------------------------------------------------------------:|:-------------------------:
+![](https://gyazo.com/96b71dd2b9128edfe9c31fff8cd7b0c9.gif)   |  ![](https://gyazo.com/bfd05c403d01cce6dfca9c949c9c9f7e.gif)
 
 ## Built With
 - [Ruby v2.3.3](https://www.ruby-lang.org/en/news/2016/11/21/ruby-2-3-3-released/)
