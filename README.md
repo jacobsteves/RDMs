@@ -54,7 +54,7 @@ Then just travel to localhost:3000 and you're all set up locally.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/RDMs/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/jacobsteves/RDMs/tags).
 
 ## License
 
