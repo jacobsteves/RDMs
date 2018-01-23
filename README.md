@@ -14,17 +14,30 @@ A ruby on rails app allowing users to send direct messages to each other faceboo
 Clone this repo.
 Run the following commands within terminal in this repo folder:
 
-`bundle install`
+```
+bundle install
+```
 
-`gem update system`
+```
+gem update system
+```
 
-`rails s`
+```
+rails s
+```
+
+or, more efficiently:
+```
+bundle install && gem update system && rails s
+```
 
 <br>
 
 In a new terminal tab:
 
-`rackup private_pub.ru -s thin -E production`
+```
+rackup private_pub.ru -s thin -E production
+```
 
 This will set up the [faye](https://faye.jcoglan.com/) server.
 
@@ -32,7 +45,9 @@ This will set up the [faye](https://faye.jcoglan.com/) server.
 
 If you're running into problems, run:
 
-`rvm --default use 2.3.3`
+```
+rvm --default use 2.3.3
+```
 
 to set the default ruby version.
 
