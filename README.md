@@ -1,4 +1,4 @@
-[![Logo](http://jacobsteves.ca/images/RDMsLogo.png)]()
+[![Logo](vendor/assets/images/logo.png)]()
 
 A ruby on rails app allowing users to send direct messages to each other facebook messenger style. There is a publish-subscribe observer system in the background, and when a notification is submitted to the server, the system uses JavaScript to update the frontend views.
 
